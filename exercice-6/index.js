@@ -3,9 +3,9 @@
 
 document.addEventListener("DOMContentLoaded", ()=>{
    const paragraph = document.querySelectorAll("p"); // return une list 
-   for(let i=0; i<paragraph.length ; i++){
-       paragraph[i].classList.remove("info"); 
-   }
+  
+       paragraph[2].classList.remove("info"); 
+   
     
 });
 
